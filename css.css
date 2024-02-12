@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    height: 100%;
+}
+body{
+    width: 100%;
+    min-height: 100vh;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.main-section{
+    display: flex;
+}
+.left{
+    width: 25%;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+}
+p {
+    font-size: 30px;
+}
+.gr1{
+    font-weight: 600;
+}
+.gr2{
+    font-weight: 500;
+}
+.gr3{
+    font-weight: 400;
+}
+.gr4{
+    font-weight: 300;
+}
+
+.right{
+    width: 75%;
+}
+ul li{
+    font-size: 25px;
+}
+
+.pic{
+    height: 23em;
+    width: 90%;
+    margin:auto;
+    border: 1px solid rgb(41, 36, 63);
+    background-image: url(/img/cell.png);
+    background-repeat:no-repeat;
+    background-position-y:center ;
+}
+.perm-adre-num{
+    margin-left: 10%;
+}
+.perm-adre-num h4{
+    font-size: 23px;
+    font-style: italic;
+}
+.rs-list{
+    width: 80%;
+    margin: auto;
+    height: 5em;
+    display: flex;
+}
+.rs-list-block{
+    height: 90%;
+    width: 20%;
+    background-color: rgb(255, 255, 255);
+    margin: auto; 
+}
+
+.tx-important{
+    background-color: rgb(109, 94, 112);
+}
+
+.block-moi{
+    width: 100%;
+    border: 1px solid rgb(160, 94, 94);
+    height: 23em;
+    background-color: rgb(109, 94, 112);
+}
+.block-moi-txt{
+    margin: auto;
+
+}
+.container-logo-dev{
+    width: 100%;
+    height: 10em;
+    
+    display: flex;
+}
+.logo-dev{
+    width: 5%;
+    height: 50%;
+    margin-left: 1%;
+    margin-top: 8%;
+}
+.block-moi h1{
+    text-align: center;
+    font-size: 75px;
+    color: azure;
+}
+.block-moi h2{
+    text-align: center;
+    font-size: 35px;
+    color: azure;
+}
+.title-ex-pro{
+    width: 100%;
+    height: 6em;
+    background-color: rgb(238, 218, 204);;
+}
+.title-ex-pro P {
+    font-size: 50PX;
+    font-weight: 500;   
+}
+.block-exp-pro{
+    width: 100%;
+    margin:auto
+}
+.xp-exemple h3{
+    font-size: 30px;
+    font-weight: 500;
+    
+}
+.ou-quand-container{
+    display: flex;
+}
+.ou-quand-container p {
+    margin: auto;
+    font-style: italic;
+    font-size: 20px;
+    background-color: antiquewhite;
+}
+.the-footer{
+    height: 20em;
+    width: 100%;
+    background-color: antiquewhite;
+    margin: auto;
+}
